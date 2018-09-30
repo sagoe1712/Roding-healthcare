@@ -2667,7 +2667,7 @@ opacity: 0;
 }
 .index-table{
 	width: 100% !important;
-	position: absolute;
+	position: fixed !important;
 	bottom: 0px !important;
 	left: 0px !important;
 	border-spacing: 0px !important;
