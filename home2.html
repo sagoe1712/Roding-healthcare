@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <title>Roding Healthcare</title>
-    <meta name="author" content="ThemingCool" />
+    <title>Roding Healthcare Limited</title>
+    <meta name="author" content="" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -109,71 +109,123 @@
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-
-	<link rel="stylesheet" href="css/framework7_and_colors.min.css">
+    <link rel="stylesheet" href="css/framework7_and_colors.min.css">
     <link rel="stylesheet" href="css/essentials.css">
     <link rel="stylesheet" href="css/my-app.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	 
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body class="primary-bg">
 <!-- Views-->
 <div class="views">
     <!-- Your main view, should have "view-main" class-->
     <div class="view view-main">
-       <!-- We don't need full layout here, because this page will be parsed with Ajax-->
-<div class="pages navbar-fixed">
-    <!-- Page, data-page contains page name-->
-    <div data-page="login" class="page bg-2">
-      
-        <!-- Scrollable page content-->
-        <div class="page-content vh-center">
-            <div class="content-block">
-				<div class="text-center">
-				<img src="img/logo@2x.png"/>
-				</div>
-                <form method="get" action="?" class="list-block">
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed">
+            <!-- Page, data-page contains page name-->
+            <div data-page="index" class="page">
+                <!-- Top Navbar-->
+                <div class="navbar no-border transparent">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link icon-only open-panel" data-panel="left"><img src="img/icon/home/menu.png"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Scrollable page content-->
+                <div class="page-content">
+                   
+					<div class="content-block">
+                        <div class="row">
+                            <div class="col-100">
+                   <div class="tc-user-card">
+                            <div class="visuals">
+                                <img src="img/bg/home/bg.png" alt="" height="345" />
+                               
+                            </div>
+                            <div class="details">
+								<div class="div-home-circle"><img src="img/icon/home/default.jpg"/></div>
+                                <h2 class="light-text-header">Qudus Oluwaseun</h2>
+								<h6 class="light-text-header">ID No.: 2024-A</h6>
+								
+                            </div>
+                        </div><!-- .tc-user-card | ENDS -->
+							</div>
+						</div>
+					</div>
 					
-                    <div class="item-content">
-                        <div class="item-media"><img src="img/icon/login/email.png"/></div>
-                        <div class="item-inner">
-                            <div class="item-input item-input-field">
-                                <input type="email" placeholder="E-Mail" class="letter-spacing1px">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-content">
-                        <div class="item-media"><img src="img/icon/login/password.png"/></div>
-                        <div class="item-inner">
-                            <div class="item-input item-input-field">
-                                <input type="password" placeholder="Password">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="buttons-row"><a class="button text-left" href="#"><small class="letter-spacing1px">FORGOT PASSWORD</small></a></p>
-					<a href="home.html"><p class="buttons-row"><button id="btn-login" class="button button-raised button-fill color-btn-red height-with-pad letter-spacing1px">Login &nbsp;<i class="fas fa-arrow-right"></i></button></p></a>
-					<p class="buttons-row"><b class="login-account letter-spacing1px">DON'T HAVE AN ACCOUNT?</b><a class="button text-right color-white" href="register.html">REGISTER NOW</a></p>
-                </form>
+                    <div class="content-block">
 
-                <div class="content-block login-block-icon">
-                <table class="index-table">
-					<tr>
-					<td class="col-50" style="padding: 6% !important;"><a href="hospital.html"><img src="img/icon/login/hospital.png"/> Our Hospitals</a></td>
-					<td class="col-50" style="padding: 6% !important;"><a href="about-us.html"><img src="img/icon/login/about.png"/> About Us</a></td>
-					</tr>
-					<tr>
-						<td class="col-50" style="padding: 6% !important;"><a href="contact.html"><img src="img/icon/login/contact.png"/> Contact Us</a></td>
-						<td class="col-50" style="padding: 6% !important;"><a href="view-enrolee.html"><img src="img/icon/login/enrolee.png"/> Verify Enrolee</a></td>
-                </tr>
-					</table>
-				</div>
+                        <div class="row">
+                            <div class="col-100">
+                                <div class="content-block-inner">
+                                    <div class="tc-title-1">
+										 <div class="tc-icon-info-box clearfix">
+                                <img src="img/icon/home/company.png" class="home-icon"/>
+												   <div>
+                                        <h5 class="sub-title small-heading">Company</h5>
+										<h3 class="title">Nigerian Ropes PLC</h3>
+											 </div>
+										</div>
+                                    </div>
+                                </div>
+                            </div><!-- .col-100 | ENDS -->
+                        </div><!-- .row | ENDS -->
+						
+						 <div class="row">
+                            <div class="col-100">
+                                <div class="content-block-inner">
+                                    <div class="tc-title-1">
+										 <div class="tc-icon-info-box clearfix">
+                                <img src="img/icon/home/hospital.png" class="home-icon"/>
+												   <div>
+                                        <h5 class="sub-title small-heading">Hospital</h5>
+										<h3 class="title">Natafood Consultants Hospitals</h3>
+											 </div>
+										</div>
+                                    </div>
+                                </div>
+                            </div><!-- .col-100 | ENDS -->
+                        </div><!-- .row | ENDS -->
+						
+						 <div class="row">
+                            <div class="col-100">
+                                <div class="content-block-inner">
+                                    <div class="tc-title-1">
+										       <div class="tc-icon-info-box clearfix">
+                                <img src="img/icon/home/plan.png" class="home-icon"/>
+												   <div>
+                                        <h5 class="sub-title small-heading">Plan</h5>
+										<h3 class="title">NIG Ropes Basic Family 2</h3>
+												   </div>
+										</div>
+                                    </div>
+                                </div>
+                            </div><!-- .col-100 | ENDS -->
+                        </div><!-- .row | ENDS -->
 
-                
-            </div><!-- .content-block | ENDS -->
-        </div><!-- .page-content | ENDS -->
-    </div>
-</div>
+						 <div class="row">
+                            <div class="col-100">
+                                <div class="content-block-inner">
+                                    <div class="tc-title-1">
+										 <div class="tc-icon-info-box clearfix">
+                                <img src="img/icon/home/status.png" class="home-icon"/>
+												   <div>
+                                        <h5 class="sub-title small-heading">Status</h5>
+										<h3 class="title text-green">Active</h3>
+											 </div>
+										</div>
+                                    </div>
+                                </div>
+                            </div><!-- .col-100 | ENDS -->
+                        </div><!-- .row | ENDS -->
+
+                      
+                    </div><!-- .content-block | ENDS -->
+
+                </div><!-- .page-content | ENDS -->
+            </div><!-- .page | ENDS -->
+        </div><!-- .pages | ENDS -->
     </div><!-- .view | ENDS -->
 </div><!-- .views | ENDS -->
 
@@ -295,11 +347,6 @@
     </div>
 </div>
 
-
-
-<script data-main="js/app" src="js/require.min.js"></script>
 	
-	<script  src="js/custom.js"></script>
-
 </body>
 </html>
