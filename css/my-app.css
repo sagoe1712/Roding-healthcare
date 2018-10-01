@@ -2667,7 +2667,7 @@ opacity: 0;
 }
 .index-table{
 	width: 100% !important;
-	position: fixed !important;
+	position: absolute !important;
 	bottom: 0px !important;
 	left: 0px !important;
 	border-spacing: 0px !important;
@@ -2823,4 +2823,10 @@ opacity: 0;
 
 .license-writing{
 	margin-top: 80% !important;
+}
+
+@media screen and (min-height: 0px) and (max-height: 510px) {
+	.index-table{
+		display: none !important;
+	}
 }
