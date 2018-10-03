@@ -889,6 +889,10 @@ i.rotate-180{
     padding: 0 16px 16px;
 }
 
+.tb-title{
+	  padding-top: 26px !important;
+	    border-top: 1px solid rgba(0,0,0,.12);
+}
 .tc-title-1 .title span,
 .tc-title-1 .sub-title{
     line-height: 1.4;
@@ -2788,13 +2792,16 @@ opacity: 0;
 	width: 20px !important;
 }
 
-.div-home-circle{
+.div-home-circle, .div-home-pic img{
 	margin-bottom: 10px !important;
 }
 
-.div-home-circle img{
+.div-home-circle img, .div-home-pic img{
 	width: 70px !important;
 	height: 70px !important;
+}
+	
+	.div-home-circle img{
 	border-radius: 100% !important;
 }
 
@@ -2829,4 +2836,41 @@ opacity: 0;
 	.index-table{
 		display: none !important;
 	}
+}
+
+.white-bg{
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+.font10{
+	font-size: 10px !important;
+}
+
+.margin-tb-20{
+	margin: 0px 0px 20px !important;
+}
+
+.home-link{
+	margin-top: 30px !important;
+}
+
+.h6spacing{
+	margin: 15px 0px !important;
+	padding: 0px !important;
+	line-height: 0px !important;
+}
+
+.med-spacing{
+	margin: 25px 0px !important;
+	padding: 0px !important;
+	line-height: 0px !important;
+}
+
+.top29{
+	top: 29% !important;
+}
+
+.text-right{
+	text-align: right !important;
 }

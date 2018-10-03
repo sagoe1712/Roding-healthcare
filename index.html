@@ -142,16 +142,18 @@
                                 <input type="email" placeholder="E-Mail" class="letter-spacing1px">
                             </div>
                         </div>
+						 <div class="item-media"></div>
                     </div>
                     <div class="item-content">
                         <div class="item-media"><img src="img/icon/login/password.png"/></div>
                         <div class="item-inner">
                             <div class="item-input item-input-field">
-                                <input type="password" placeholder="Password">
+                                <input type="password" placeholder="Password" id="pwd">
                             </div>
                         </div>
+						 <div class="item-media"><a onclick="show()" href="#"><img src="img/icon/login/eye.png" id="EYE"></a></div>
                     </div>
-                    <p class="buttons-row"><a class="button text-left" href="#"><small class="letter-spacing1px">FORGOT PASSWORD</small></a></p>
+                    <p class="buttons-row"><a class="button text-left" href="forgot-password.html"><small class="letter-spacing1px">FORGOT PASSWORD</small></a></p>
 					<a href="home.html"><p class="buttons-row"><button id="btn-login" class="button button-raised button-fill color-btn-red height-with-pad letter-spacing1px">Login &nbsp;<i class="fas fa-arrow-right"></i></button></p></a>
 					<p class="buttons-row"><b class="login-account letter-spacing1px">DON'T HAVE AN ACCOUNT?</b><a class="button text-right color-white" href="register.html">REGISTER NOW</a></p>
                 </form>
@@ -245,21 +247,49 @@
                         <div class="item-title">Home</div>
                     </div></a>
                 </li>
+				
+				<!--Hospital-->
+				 <li class="accordion-item"><a href="claim.html" class="close-panel">
+                    <div class="item-inner">
+                        <div class="item-title">Submit Claim</div>
+                    </div></a>
+                </li>
+				
 				<li class="accordion-item"><a href="inner-hospital.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Hospital Locator</div>
                     </div></a>
                 </li>
+				<!--client-->
+				 <li class="accordion-item"><a href="#" class="close-panel">
+                    <div class="item-inner">
+                        <div class="item-title">Member Search</div>
+                    </div></a>
+                </li>
+				
+				<!--client-->
+				 <li class="accordion-item"><a href="usuage.html" class="close-panel">
+                    <div class="item-inner">
+                        <div class="item-title">Request Usuage</div>
+                    </div></a>
+                </li>
+				
+				
+				
+				<!--customer-->
 				<li class="accordion-item"><a href="my-details.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">My Details</div>
                     </div></a>
                 </li>
+				
+				<!--customer-->
 				<li class="accordion-item"><a href="socials.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Socials</div>
                     </div></a>
                 </li>
+				<!--customer-->
 				<li class="accordion-item"><a href="faqs.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">FAQs</div>
@@ -270,12 +300,14 @@
                         <div class="item-title">About Us</div>
                     </div></a>
                 </li>-->
-				
+				<!--customer-->
                 <li class="accordion-item"><a href="inner-contact.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Contact Us</div>
                     </div></a>
                 </li>
+				
+				
 				
 				<li class="accordion-item"><a href="change-password.html" class="close-panel">
                     <div class="item-inner">
@@ -300,6 +332,19 @@
 <script data-main="js/app" src="js/require.min.js"></script>
 	
 	<script  src="js/custom.js"></script>
-
+<script>
+	function show() {
+var a=document.getElementById("pwd");
+var b=document.getElementById("EYE");
+if (a.type=="password")  {
+a.type="text";
+b.src="img/icon/login/uneye.png";
+}
+else {
+a.type="password";
+b.src="img/icon/login/eye.png";
+}
+}
+	</script>
 </body>
 </html>
