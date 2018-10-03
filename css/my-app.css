@@ -2874,3 +2874,7 @@ opacity: 0;
 .text-right{
 	text-align: right !important;
 }
+
+.medication-tab tr:nth-child(even) {
+	background: #ccc !important;
+}
