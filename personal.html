@@ -1,7 +1,7 @@
 <!-- We don't need full layout here, because this page will be parsed with Ajax-->
 <div class="pages navbar-fixed">
     <!-- Page, data-page contains page name-->
-    <div data-page="register" class="page white-bg">
+    <div data-page="contact" class="page">
         <!-- Top Navbar-->
         <div class="navbar no-border secondary-bg">
             <div class="navbar-inner">
@@ -9,30 +9,31 @@
                     <a href="#" class="link icon-only back"><i class="uiicon-left222"></i></a>
                     <div class="page-name letter-spacing1px">Personal Information</div>
                 </div>
-
-               
-
-               
-            </div>
+</div>
         </div>
         <!-- Scrollable page content-->
-        <div class="page-content vh-center no-position">
+        <div class="page-content">
             <div class="content-block">
-                <form method="get" action="?" class="list-block ">
-						
-			 <div class="circle">
-       <!-- User Profile Image -->
-       <img class="profile-pic" src="img/profile/image@3x.png">
 
-       <!-- Default Image -->
-       <!-- <i class="fa fa-user fa-5x"></i> -->
-     </div>
-     <div class="p-image">
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+							
+							
+                            <form method="post" action="?" class="tc-contact-form list-block inputs-list">
+                                
+									 <div class="div-pro-circle">
+       <!-- User Profile Image -->
+       <img class="" src="img/icon/home/default.jpg">
+
+      	<div class="red-camera-upload">
        <i class="fa fa-camera upload-button"></i>
         <input class="file-upload" type="file" accept="image/*"/>
      </div>
-						<div class="list-block inputs-list margintop-per-form">
-               <ul>
+     </div>
+							
+								
+								<ul>
                  <li>
                      <div class="item-content">
                          <div class="item-inner">
@@ -118,9 +119,12 @@
 					
 						<a href="personal2.html"><p class="buttons-row"><button class="button button-raised button-fill color-btn-red letter-spacing1px height-with-pad" type="submit">NEXT</button></p></a>
 
-                </form>
-					</div>
+                            </form><!-- .list-block | ENDS -->
+                        </div><!-- .content-block-inner | ENDS -->
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
             </div><!-- .content-block | ENDS -->
+
         </div><!-- .page-content | ENDS -->
     </div>
 </div>
