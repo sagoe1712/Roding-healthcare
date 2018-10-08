@@ -2732,6 +2732,10 @@ opacity: 0;
 	margin: 20px 0px !important;
 }
 
+.div-list-hosp .row .hosp-info {
+	padding: 10px !important;
+}
+
 .div-address{
 	margin: 10px 0px !important;
 }
@@ -2891,4 +2895,20 @@ opacity: 0;
 		margin: 40% 0px 0px !important;
 		
 	}
+}
+
+.open-panel img{
+	width: 30px !important;
+}
+
+.index-table .col-50 img{
+	width: 20px !important;
+}
+
+.item-content .item-media img{
+	width: 20px !important;
+}
+
+.item-media #EYE{
+	width: 20px !important;
 }
