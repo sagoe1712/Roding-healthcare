@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    alert("JS works");
+
     var readURL = function(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
@@ -39,11 +39,13 @@ $(document).on('click','#btn-login',function () {
     } else if(username =="client@test.com" && password =="password"){
         window.location.replace("client-inner.html");
         return false;
-    }else if (username == "hospital@test.com" && password="password"){
+    }else if (username == "hospital@test.com" && password=="password"){
         window.location.replace("hospital-inner.html");
         return false;
     }else{
-        myApp.alert("Wrong Credentials");
+        alert("Wrong Credentials");
+        $('#txtemail').val("");
+        $('#pwd').val("");
         return false;
     }
 });
