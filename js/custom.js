@@ -23,6 +23,7 @@ $(document).ready(function() {
     });
 });
 
-$('#btn-login').click(function(){
-	alert("Login Button has been hit");
+$(document).on('click', '#link-logout', function () {
+    window.location.replace("index.html");
 });
+

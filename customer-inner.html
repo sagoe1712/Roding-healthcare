@@ -125,56 +125,110 @@
        <!-- We don't need full layout here, because this page will be parsed with Ajax-->
 <div class="pages navbar-fixed">
     <!-- Page, data-page contains page name-->
-    <div data-page="login" class="page bg-2">
-      
+
+    <div data-page="index" class="page">
+        <!-- Top Navbar-->
+        <div class="navbar no-border transparent">
+            <div class="navbar-inner">
+                <div class="left">
+                    <a href="#" class="link icon-only open-panel" data-panel="left"><img src="img/icon/home/menu.png" class=""></a>
+                </div>
+
+            </div>
+        </div>
         <!-- Scrollable page content-->
-        <div class="page-content vh-center">
+        <div class="page-content">
+
             <div class="content-block">
-				<div class="text-center">
-				<img src="img/logo@2x.png"/>
-				</div>
-                <form method="get" action="?" class="list-block">
-					
-                    <div class="item-content">
-                        <div class="item-media"><img src="img/icon/login/email.png"/></div>
-                        <div class="item-inner">
-                            <div class="item-input item-input-field">
-                                <input type="email" placeholder="E-Mail" id="txtemail" class="letter-spacing1px">
+                <div class="row">
+                    <div class="col-100">
+                        <div class="tc-user-card">
+                            <div class="visuals">
+                                <img src="img/bg/home/bg.png" alt="" height="345" />
+
+                            </div>
+                            <div class="details">
+                                <div class="div-home-circle"><img src="img/icon/home/default.jpg"/></div>
+                                <h2 class="light-text-header">Qudus Oluwaseun</h2>
+                                <h6 class="light-text-header">ID No.: 2024-A</h6>
+
+                            </div>
+                        </div><!-- .tc-user-card | ENDS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-block">
+
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+                            <div class="tc-title-1">
+                                <div class="tc-icon-info-box clearfix">
+                                    <img src="img/icon/home/company.png" class="home-icon"/>
+                                    <div>
+                                        <h5 class="sub-title small-heading">Company</h5>
+                                        <h3 class="title">Nigerian Ropes PLC</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-						 <div class="item-media"></div>
-                    </div>
-                    <div class="item-content">
-                        <div class="item-media"><img src="img/icon/login/password.png"/></div>
-                        <div class="item-inner">
-                            <div class="item-input item-input-field">
-                                <input type="password" placeholder="Password" id="pwd">
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
+
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+                            <div class="tc-title-1">
+                                <div class="tc-icon-info-box clearfix">
+                                    <img src="img/icon/home/hospital.png" class="home-icon"/>
+                                    <div>
+                                        <h5 class="sub-title small-heading">Hospital</h5>
+                                        <h3 class="title">Natafood Consultants Hospitals</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-						 <div class="item-media"><a onclick="show()" href="#"><img src="img/icon/login/eye.png" id="EYE"></a></div>
-                    </div>
-                    <p class="buttons-row"><a class="button text-left" href="forgot-password.html"><small class="letter-spacing1px">FORGOT PASSWORD</small></a></p>
-					<a href="home.html"><p class="buttons-row"><button id="btn-login" class="button button-raised button-fill color-btn-red height-with-pad letter-spacing1px">Login &nbsp;<i class="fas fa-arrow-right"></i></button></p></a>
-					<p class="buttons-row"><b class="login-account letter-spacing1px">DON'T HAVE AN ACCOUNT?</b><a class="button text-right color-white" href="register.html">REGISTER NOW</a></p>
-                </form>
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
 
-                <div class="content-block login-block-icon">
-                <table class="index-table">
-					<tr>
-					<td class="col-50" style="padding: 6% !important;"><a href="hospital.html"><img src="img/icon/login/hospital.png"/> Our Hospitals</a></td>
-					<td class="col-50" style="padding: 6% !important;"><a href="about-us.html"><img src="img/icon/login/about.png"/> About Us</a></td>
-					</tr>
-					<tr>
-						<td class="col-50" style="padding: 6% !important;"><a href="contact.html"><img src="img/icon/login/contact.png"/> Contact Us</a></td>
-						<td class="col-50" style="padding: 6% !important;"><a href="view-enrolee.html"><img src="img/icon/login/enrolee.png"/> Verify Enrolee</a></td>
-                </tr>
-					</table>
-				</div>
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+                            <div class="tc-title-1">
+                                <div class="tc-icon-info-box clearfix">
+                                    <img src="img/icon/home/plan.png" class="home-icon"/>
+                                    <div>
+                                        <h5 class="sub-title small-heading">Plan</h5>
+                                        <h3 class="title">NIG Ropes Basic Family 2</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
 
-                
+                <div class="row">
+                    <div class="col-100">
+                        <div class="content-block-inner">
+                            <div class="tc-title-1">
+                                <div class="tc-icon-info-box clearfix">
+                                    <img src="img/icon/home/status.png" class="home-icon"/>
+                                    <div>
+                                        <h5 class="sub-title small-heading">Status</h5>
+                                        <h3 class="title text-green">Active</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- .col-100 | ENDS -->
+                </div><!-- .row | ENDS -->
+
+
             </div><!-- .content-block | ENDS -->
+
         </div><!-- .page-content | ENDS -->
-    </div>
+    </div><!-- .page | ENDS -->
 </div>
     </div><!-- .view | ENDS -->
 </div><!-- .views | ENDS -->
@@ -242,92 +296,60 @@
 
         <nav class="list-block accordion-list menu-list">
             <ul>
-                <li class="accordion-item"><a href="home.html" class="close-panel">
+                <li class="accordion-item"><a href="customer-inner.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Home</div>
                     </div></a>
                 </li>
-				
-				<li class="accordion-item"><a href="home2.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Client Home</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="home-hosp.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Hospital Home</div>
-                    </div></a>
-                </li>
-				
-				<!--Hospital-->
-				 <li class="accordion-item"><a href="claim.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Submit Claim</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="inner-hospital.html" class="close-panel">
+
+                <li class="accordion-item"><a href="inner-hospital.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Hospital Locator</div>
                     </div></a>
                 </li>
-				<!--client-->
-				 <li class="accordion-item"><a href="member-search.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Member Search</div>
-                    </div></a>
-                </li>
-				
-				<!--client-->
-				 <li class="accordion-item"><a href="usuage.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Request Usuage</div>
-                    </div></a>
-                </li>
-				
-				
-				
-				<!--customer-->
-				<li class="accordion-item"><a href="my-details.html" class="close-panel">
+
+
+
+                <!--customer-->
+                <li class="accordion-item"><a href="my-details.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">My Details</div>
                     </div></a>
                 </li>
-				
-				<!--customer-->
-				<li class="accordion-item"><a href="socials.html" class="close-panel">
+
+                <!--customer-->
+                <li class="accordion-item"><a href="socials.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Socials</div>
                     </div></a>
                 </li>
-				<!--customer-->
-				<li class="accordion-item"><a href="faqs.html" class="close-panel">
+                <!--customer-->
+                <li class="accordion-item"><a href="faqs.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">FAQs</div>
                     </div></a>
                 </li>
-				<!--<li class="accordion-item"><a href="about-us.html" class="close-panel">
+                <!--<li class="accordion-item"><a href="about-us.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">About Us</div>
                     </div></a>
                 </li>-->
-				<!--customer-->
+                <!--customer-->
                 <li class="accordion-item"><a href="inner-contact.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Contact Us</div>
                     </div></a>
                 </li>
-				
-				
-				
-				<li class="accordion-item"><a href="change-password.html" class="close-panel">
+
+
+
+                <li class="accordion-item"><a href="change-password.html" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Change Password</div>
                     </div></a>
                 </li>
-				
-				<li class="accordion-item"><a href="index.html" class="close-panel">
+
+                <li class="accordion-item"><a href="#" id="link-logout" class="close-panel">
                     <div class="item-inner">
                         <div class="item-title">Logout</div>
                     </div></a>
@@ -335,7 +357,7 @@
             </ul>
         </nav><!-- .menu-list | ENDS -->
 
-      
+
     </div>
 </div>
 
@@ -344,32 +366,6 @@
 <script data-main="js/app" src="js/require.min.js"></script>
 	
 	<script  src="js/custom.js"></script>
-<script>
-	function show() {
-var a=document.getElementById("pwd");
-var b=document.getElementById("EYE");
-if (a.type=="password")  {
-a.type="text";
-b.src="img/icon/login/uneye.png";
-}
-else {
-a.type="password";
-b.src="img/icon/login/eye.png";
-}
-}
 
-    var username = $('#txtemail').val();
-    var password = $('#pwd').val();
-
-    if (username == "customer" && password =="password"){
-        window.location.replace("customer-inner.html");
-    } else if(username =="client" && password =="password"){
-        window.location.replace("client-inner.html");
-    }else if (username == "hospital" && password="password"){
-        window.location.replace("hospital-inner.html");
-    }else{
-        myApp.alert("Wrong Credentials");
-    }
-	</script>
 </body>
 </html>
