@@ -27,3 +27,19 @@ $(document).on('click', '#link-logout', function () {
     window.location.replace("index.html");
 });
 
+$(document).on('click','#btn-login',function () {
+
+
+    var username = $('#txtemail').val();
+    var password = $('#pwd').val();
+
+    if (username == "customer" && password =="password"){
+        window.location.replace("customer-inner.html");
+    } else if(username =="client" && password =="password"){
+        window.location.replace("client-inner.html");
+    }else if (username == "hospital" && password="password"){
+        window.location.replace("hospital-inner.html");
+    }else{
+        myApp.alert("Wrong Credentials");
+    }
+});

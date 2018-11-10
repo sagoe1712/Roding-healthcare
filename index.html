@@ -154,7 +154,7 @@
 						 <div class="item-media"><a onclick="show()" href="#"><img src="img/icon/login/eye.png" id="EYE"></a></div>
                     </div>
                     <p class="buttons-row"><a class="button text-left" href="forgot-password.html"><small class="letter-spacing1px">FORGOT PASSWORD</small></a></p>
-					<a href="home.html"><p class="buttons-row"><button id="btn-login" class="button button-raised button-fill color-btn-red height-with-pad letter-spacing1px">Login &nbsp;<i class="fas fa-arrow-right"></i></button></p></a>
+                    <p class="buttons-row"><button id="btn-login" class="button button-raised button-fill color-btn-red height-with-pad letter-spacing1px">Login &nbsp;<i class="fas fa-arrow-right"></i></button></p>
 					<p class="buttons-row"><b class="login-account letter-spacing1px">DON'T HAVE AN ACCOUNT?</b><a class="button text-right color-white" href="register.html">REGISTER NOW</a></p>
                 </form>
 
@@ -233,113 +233,6 @@
 <div class="statusbar-overlay"></div>
 <!-- Panels overlay-->
 <div class="panel-overlay"></div>
-<!-- Left panel with reveal effect-->
-<div class="panel panel-left panel-reveal primary-bg">
-    <div class="content-block">
-        <div class="content-inner">
-            <a href="home.html" class="link close-panel"><img src="img/logo@2x.png" height="75" alt="" /></a>
-        </div>
-
-        <nav class="list-block accordion-list menu-list">
-            <ul>
-                <li class="accordion-item"><a href="home.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Home</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="home2.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Client Home</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="home-hosp.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Hospital Home</div>
-                    </div></a>
-                </li>
-				
-				<!--Hospital-->
-				 <li class="accordion-item"><a href="claim.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Submit Claim</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="inner-hospital.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Hospital Locator</div>
-                    </div></a>
-                </li>
-				<!--client-->
-				 <li class="accordion-item"><a href="member-search.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Member Search</div>
-                    </div></a>
-                </li>
-				
-				<!--client-->
-				 <li class="accordion-item"><a href="usuage.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Request Usuage</div>
-                    </div></a>
-                </li>
-				
-				
-				
-				<!--customer-->
-				<li class="accordion-item"><a href="my-details.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">My Details</div>
-                    </div></a>
-                </li>
-				
-				<!--customer-->
-				<li class="accordion-item"><a href="socials.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Socials</div>
-                    </div></a>
-                </li>
-				<!--customer-->
-				<li class="accordion-item"><a href="faqs.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">FAQs</div>
-                    </div></a>
-                </li>
-				<!--<li class="accordion-item"><a href="about-us.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">About Us</div>
-                    </div></a>
-                </li>-->
-				<!--customer-->
-                <li class="accordion-item"><a href="inner-contact.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Contact Us</div>
-                    </div></a>
-                </li>
-				
-				
-				
-				<li class="accordion-item"><a href="change-password.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Change Password</div>
-                    </div></a>
-                </li>
-				
-				<li class="accordion-item"><a href="index.html" class="close-panel">
-                    <div class="item-inner">
-                        <div class="item-title">Logout</div>
-                    </div></a>
-                </li>
-            </ul>
-        </nav><!-- .menu-list | ENDS -->
-
-      
-    </div>
-</div>
-
-
 
 <script data-main="js/app" src="js/require.min.js"></script>
 	
@@ -357,6 +250,8 @@ a.type="password";
 b.src="img/icon/login/eye.png";
 }
 }
+$(document).on('click','#btn-login',function () {
+
 
     var username = $('#txtemail').val();
     var password = $('#pwd').val();
@@ -370,6 +265,7 @@ b.src="img/icon/login/eye.png";
     }else{
         myApp.alert("Wrong Credentials");
     }
+});
 	</script>
 </body>
 </html>
