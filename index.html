@@ -258,12 +258,16 @@ $(document).on('click','#btn-login',function () {
 
     if (username == "customer@test.com" && password =="password"){
         window.location.replace("customer-inner.html");
+        return false;
     } else if(username =="client@test.com" && password =="password"){
         window.location.replace("client-inner.html");
+        return false;
     }else if (username == "hospital@test.com" && password="password"){
         window.location.replace("hospital-inner.html");
+        return false;
     }else{
         myApp.alert("Wrong Credentials");
+        return false;
     }
 });
 	</script>
